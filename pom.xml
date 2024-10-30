@@ -22,7 +22,7 @@
                 <activeByDefault>true</activeByDefault>
             </activation>
             <properties>
-                <suiteXmlFileName>configuration/tests</suiteXmlFileName>
+                <suiteXmlFileName>test</suiteXmlFileName>
             </properties>
         </profile>
     </profiles>
