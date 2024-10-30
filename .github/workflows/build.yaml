@@ -24,7 +24,7 @@ jobs:
         run: mvn compile
 
       - name: Run test
-        run: mvn test -DsuiteXmlFileName=test
+        run: mvn clean test
         continue-on-error: true
 
       - name: Load test report history
