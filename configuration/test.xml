@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!-- Набор Regress тестов сервиса авторизации -->
+<suite name="Тесты для демонстрации работы Allure" parallel="tests" thread-count="2">
+    <test name="Тесты">
+        <classes>
+            <class name="Tests">
+                <methods>
+                    <include name="positiveTest"/>
+                    <include name="negativeTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
