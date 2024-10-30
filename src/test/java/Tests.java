@@ -12,6 +12,6 @@ public class Tests extends BaseClass{
     @Test
     public void negativeTest(){
         Response response = steps.loginOnSite("email","pass");
-        Assert.assertEquals(response.statusCode(),200);
+        Assert.assertEquals(response.statusCode(),400);
     }
 }
